@@ -931,3 +931,15 @@ ol.unstyled {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f25e8', endColorstr='#2f25e8', GradientType=0);
 }
+
+.mentaltext {
+  text-align: center;
+}
+.mentalbold {
+  font-weight: bold;
+}
+#centeri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
