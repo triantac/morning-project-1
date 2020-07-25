@@ -35,7 +35,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a href="index.html" class="navbar-brand">
-                    <img src="img/logo.png" alt="Post">
+                    <img src="img/logo.png" alt="Post" title="logo">
                 </a>
                 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
                     <ul class="nav navbar-nav main-navbar-nav">
@@ -70,7 +70,7 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <a href="https://www.cdc.gov" target="_blank">
+                            <a href="guidelines.html" target="_blank">
                                 <img src="img/elderly.jpg" alt="elderly">
                                 <div class="carousel-caption">
                                     <h2>Guidelines for High-Risk Citizens</h2>
@@ -78,7 +78,7 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://www.cdc.gov" target="_blank">
+                            <a href="guidelines.html" target="_blank">
                                 <img src="img/man.jpg" alt="man">
                                 <div class="carousel-caption">
                                     <h2>Guidelines for Employers</h2>
@@ -86,7 +86,7 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://www.cdc.gov" target="_blank">
+                            <a href="guidelines.html" target="_blank">
                                 <img src="img/panorama.jpg" alt="panorama">
                                 <div class="carousel-caption">
                                     <h2>Guidelines for Families</h2>
@@ -94,7 +94,7 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://www.cdc.gov" target="_blank">
+                            <a href="guidelines.html" target="_blank">
                                 <img src="img/baby.jpg" alt="baby">
                                 <div class="carousel-caption">
                                     <h2>Guidelines for Families</h2>
@@ -324,24 +324,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $('.carousel[data-type="multi"] .item').each(function () {
-            var next = $(this).next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-            next.children(':first-child').clone().appendTo($(this));
-
-            for (var i = 0; i < 4; i++) {
-                next = next.next();
-                if (!next.length) {
-                    next = $(this).siblings(':first');
-                }
-
-                next.children(':first-child').clone().appendTo($(this));
-            }
-        });        
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
